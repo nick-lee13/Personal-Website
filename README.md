@@ -1,2 +1,2 @@
 # Personal Website
- Personal website built usin React.js
+ Personal website built using React.js
