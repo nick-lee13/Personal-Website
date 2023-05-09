@@ -103,6 +103,7 @@
     }
   
     .logo-container {
+      z-index: -5;
       position: relative;
       width: 100px;
       height: auto;
@@ -111,14 +112,5 @@
       box-sizing: border-box;
       margin: auto;
       left: 0;
-    }
-  
-    .logo-container svg {
-      position: absolute;
-      top: auto;
-      right: auto;
-      bottom: auto;
-      left: 0;
-      margin: auto;
     }
   }
