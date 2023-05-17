@@ -1,0 +1,28 @@
+{
+    "portfolio": [
+        {
+            "cover": "/portfolio/react-icon.png",
+            "title": "Personal Website",
+            "description": "React, JavaScript, CSS",
+            "url": "https://github.com/nick-lee13/Personal-Website"
+        },
+        {
+            "cover": "/portfolio/album-rater.jpg",
+            "title": "Album Rater",
+            "description": "Java Spring Boot, React, and MongoDB",
+            "url": "https://github.com/nick-lee13/AlbumRater"
+        },
+        {
+            "cover": "/portfolio/plague-inc.jpg",
+            "title": "Plague Inc Board Game",
+            "description": "Java, JavaScript, React, CSS, SpringBoot, Gradle",
+            "url": "https://github.com/nick-lee13/SoftDesign-Project"
+        },
+        {
+            "cover": "/portfolio/space-cats.jpg",
+            "title": "Space Cats Fight Fascism",
+            "description": "Java 8, JAVAFX 19, MVC, Design Patterns",
+            "url": "https://github.com/nick-lee13/Space-Cats-Fight-Fascism"
+        }
+    ]
+}
