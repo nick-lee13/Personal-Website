@@ -23,7 +23,7 @@ const Contact = () => {
         e.preventDefault()
     
         emailjs
-          .sendForm('service_ogqkcd5', 'template_ct0pi5o', refForm.current, 'qdmPYh0hMQxR6Eg0J')
+          .sendForm('service_5jvpqbt', 'service_5jvpqbt', refForm.current, 'oq2hB0o4W5_vmdC4A')
           .then(
             () => {
               alert('Message successfully sent!')
@@ -47,7 +47,7 @@ const Contact = () => {
                     />
                 </h1>
                 <p>
-                    Feel Free to contact me! I am interested in freelancing
+                    Feel free to contact me! I am interested in freelancing
                     - or any interesting job opportunities. If you have any other 
                     requests or questions, don't hesitate to contact me using the form below.
                 </p>
@@ -76,15 +76,15 @@ const Contact = () => {
             <div className='info-map'>
                 Nick Lee
                 <br />
-                Vancouver,
+                Halifax,
                 <br />
-                BC, Canada <br />
+                NS, Canada <br />
                 <span>nicklee.tech@gmail.com</span>
             </div>
             <div className='map-wrap'>
-                <MapContainer center={[49.275657316105935, -123.13185043029641]} zoom={13}>
+                <MapContainer center={[44.64776449379762, -63.57952184542767]} zoom={13}>
                     <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
-                    <Marker position={[49.275657316105935, -123.13185043029641]}>
+                    <Marker position={[44.64776449379762, -63.57952184542767]}>
                         <Popup>Nick lives here!</Popup>
                     </Marker>
                 </MapContainer>
